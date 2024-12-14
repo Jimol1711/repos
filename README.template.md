@@ -1,8 +1,9 @@
 # Repository for [Course Name]
 
-> **⚠️ Warning:** This repository is intended for educational purposes only. Ensure you have proper permissions before sharing or using its contents outside this course.
-
 This repository contains all the materials and assignments for the [Course Name] course. It is organized into four folders and includes a `.gitignore` file. Below is a brief description of each section.
+
+
+> **⚠️ Warning:** This repository is intended for educational purposes only. Ensure you have proper permissions before sharing or using its contents outside this course.
 
 ---
 
