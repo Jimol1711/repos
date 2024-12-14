@@ -2,6 +2,8 @@
 
 Simple script for updating local repositores. 
 
+> **⚠️ Warning:** Run repo_updater.py before commiting to update gitignore
+
 ---
 
 ## File: `repo_updater.py`
