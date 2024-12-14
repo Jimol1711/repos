@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def update_gitignore():
-    """Update the .gitignore file in the current directory with all files and directories except the script file."""
+    """Update the .gitignore file in the current directory with all files and directories except the script file and READMEs."""
     current_dir = os.getcwd()
     script_name = os.path.basename(__file__)
     gitignore_path = os.path.join(current_dir, ".gitignore")
