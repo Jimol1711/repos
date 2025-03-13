@@ -85,9 +85,15 @@ def check_status(repo_path):
                           "Untracked files", 
                           "Cambios no rastreados para el commit:", 
                           "Archivos sin seguimiento:"]
+        
+        # Repos that should not be pushed to but should be fetched and pulled from
+        repos_to_not_push = ["Curso-Aprendizaje-de-Maquinas"]
+
+        # WIP
+        repos_to_skip = []
 
         for output in commit_outputs:
-            if output in status_output:
+            if (output in status_output) and (not shortened_repo_path in repos_to_not_push):
                 subprocess.run(["git", "add", "."], cwd=repo_path, check=True)
                 commit_message = input(f"Commit message for repo {shortened_repo_path}: ")
                 subprocess.run(["git", "commit", "-m", commit_message], cwd=repo_path, check=True)
@@ -97,7 +103,7 @@ def check_status(repo_path):
 
         if ahead and behind:
             print(f"Repository '{shortened_repo_path}' has diverged from the remote. Manual update required.")
-        elif ahead:
+        elif ahead and (not shortened_repo_path in repos_to_not_push):
             print(f"Repository '{shortened_repo_path}' is ahead of the remote. Pushing updates...")
             # Check if there are changes to commit
             if "Changes to be committed:" in status_output or "Changes not staged for commit:" in status_output:
