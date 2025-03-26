@@ -87,7 +87,8 @@ def check_status(repo_path):
                           "Archivos sin seguimiento:"]
         
         # Repos that should not be pushed to but should be fetched and pulled from
-        repos_to_not_push = ["Curso-Aprendizaje-de-Maquinas"]
+        repos_to_not_push = ["Curso-Aprendizaje-de-Maquinas",
+                             "mds_dsproject_classes_notes"]
 
         # WIP
         repos_to_skip = []
