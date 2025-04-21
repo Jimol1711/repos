@@ -88,7 +88,8 @@ def check_status(repo_path):
         
         # Repos that should not be pushed to but should be fetched and pulled from
         repos_to_not_push = ["Curso-Aprendizaje-de-Maquinas",
-                             "mds_dsproject_classes_notes"]
+                             "mds_dsproject_classes_notes",
+                             "CEC"]
 
         # WIP
         repos_to_skip = []
