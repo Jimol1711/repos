@@ -42,3 +42,5 @@ imperial-mds7201/
 imperial-segmentacion-de-clientes/
 version/
 Exps/
+safe-sync-branches.sh
+sync-branches.sh
