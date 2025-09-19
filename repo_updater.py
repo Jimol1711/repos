@@ -90,7 +90,8 @@ def check_status(repo_path):
         repos_to_not_push = ["Curso-Aprendizaje-de-Maquinas",
                              "mds_dsproject_classes_notes",
                              "CEC",
-                             "imperial-segmentacion-de-clientes"]
+                             "imperial-segmentacion-de-clientes",
+                             "cpsc330-2025W1"]
 
         # WIP
         repos_to_skip = []
