@@ -91,7 +91,8 @@ def check_status(repo_path):
                              "mds_dsproject_classes_notes",
                              "CEC",
                              "imperial-segmentacion-de-clientes",
-                             "cpsc330-2025W1"]
+                             "cpsc330-2025W1",
+                             "AppliedMachineLearning_Project_3"]
 
         # WIP
         repos_to_skip = []
