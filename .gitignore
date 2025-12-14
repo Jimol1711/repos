@@ -60,3 +60,7 @@ cpsc330 hw/
 AppliedMachineLearning_Project_7/
 React-Features/
 Full-Stack/
+
+# MAC stuff
+.DS_store
+.python-version
