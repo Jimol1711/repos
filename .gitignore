@@ -60,4 +60,10 @@ cpsc330 hw/
 AppliedMachineLearning_Project_7/
 React-Features/
 Full-Stack/
+<<<<<<< HEAD
 ria-inter-project-juan-ignacio-molina/
+=======
+.DS_Store
+.python-version
+repo_updater.py
+>>>>>>> 6d8da4a423460e3f8e63a84ebb6c844423da818a
