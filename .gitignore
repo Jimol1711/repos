@@ -64,3 +64,4 @@ ria-inter-project-juan-ignacio-molina/
 .DS_Store
 .python-version
 repo_updater.py
+venv/
